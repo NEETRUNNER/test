@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.40607778.css",
-    "main.js": "/test/static/js/main.215c022e.js",
+    "main.css": "/test/static/css/main.f7a9247d.css",
+    "main.js": "/test/static/js/main.73db4e9d.js",
     "static/media/main_back.jpeg": "/test/static/media/main_back.f6bfd868bff9a7bc28a6.jpeg",
     "static/media/form_bg.png": "/test/static/media/form_bg.1ab3bb936f90807d7105.png",
     "static/media/slider_bg.jpg": "/test/static/media/slider_bg.766384e9d851a2307aed.jpg",
@@ -17,17 +17,16 @@
     "static/media/zone_back.jpeg": "/test/static/media/zone_back.79973d8143a1d55641bc.jpeg",
     "static/media/thirdCard.png": "/test/static/media/thirdCard.b06abc185366c2979ebf.png",
     "static/media/secondCard.png": "/test/static/media/secondCard.6c3454f5dd58e3588a89.png",
-    "static/media/map.png": "/test/static/media/map.c39efa69dbcd62851e42.png",
     "static/media/ssd.png": "/test/static/media/ssd.73bedecb8f24f6590f9b.png",
     "static/media/videocard.png": "/test/static/media/videocard.00a8c633c3ef25d914c3.png",
     "static/media/whatsapp.svg": "/test/static/media/whatsapp.4399f21f7fedcbea58183fe8c0ca6b4d.svg",
     "static/media/tg.svg": "/test/static/media/tg.319a205c30d084d02ca8b06293ef586d.svg",
     "index.html": "/test/index.html",
-    "main.40607778.css.map": "/test/static/css/main.40607778.css.map",
-    "main.215c022e.js.map": "/test/static/js/main.215c022e.js.map"
+    "main.f7a9247d.css.map": "/test/static/css/main.f7a9247d.css.map",
+    "main.73db4e9d.js.map": "/test/static/js/main.73db4e9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.40607778.css",
-    "static/js/main.215c022e.js"
+    "static/css/main.f7a9247d.css",
+    "static/js/main.73db4e9d.js"
   ]
 }

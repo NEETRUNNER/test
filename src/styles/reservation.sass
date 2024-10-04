@@ -1,0 +1,187 @@
+.reservation
+    min-height: 100vh
+    background: linear-gradient(270deg, rgba(53, 0, 95, 0) 0%, rgba(26, 26, 26, 26) 100%), url(../images/form_bg.png)
+    background-color: rgb(21 21 21)
+.form
+    width: 700px
+    max-width: 100%
+    min-height: 100%
+    border-radius: 50px
+    box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.4)
+    background: rgb(14, 14, 14)
+    position: absolute
+    top: 50% /* Центрирование по вертикали */
+    left: 50% /* Центрирование по горизонтали */
+    transform: translate(-50%, 25%) /* Центрирование по обеим осям */
+    &__arrowDown
+        position: absolute
+        left: 380px
+        top: 65px
+    &__arrowLeft
+        position: absolute
+        left: 340px
+        top: 467px
+    &__wrapper
+        box-sizing: border-box
+        border: 3px solid rgba(255, 255, 255, 0.05)
+        border-radius: 30px
+        margin: 20px
+        text-align: left
+        padding: 30px
+    &__reservation
+        margin: 0
+        color: rgb(255, 255, 255)
+        font-family: Inter
+        font-size: 30px
+        font-weight: 600
+        line-height: 36px
+        letter-spacing: 0%
+    &__name
+        width: 210px
+        height: 50px
+        border-radius: 10px
+        background: rgb(3, 3, 3)
+        color: rgba(255, 255, 255)
+        font-family: Inter
+        font-size: 20px
+        font-weight: 400
+        line-height: 29px
+        letter-spacing: 0%
+        padding-left: 10px
+        margin: 10px
+    &__data
+        width: 105px
+        height: 50px
+        border-radius: 10px
+        background: rgb(3, 3, 3)
+        color: rgba(255, 255, 255)
+        font-family: Inter
+        font-size: 20px
+        font-weight: 400
+        line-height: 29px
+        letter-spacing: 0%
+        padding-left: 10px
+        margin: 10px
+    &__time
+        width: 105px
+        height: 50px
+        border-radius: 10px
+        background: rgb(3, 3, 3)
+        color: rgba(255, 255, 255)
+        font-family: Inter
+        font-size: 20px
+        font-weight: 400
+        line-height: 29px
+        letter-spacing: 0%
+        padding-left: 10px
+        margin: 10px
+    &__guest
+        width: 423px
+        height: 50px
+        border-radius: 10px
+        background: rgb(3, 3, 3)
+        color: rgb(255, 255, 255)
+        font-family: Inter
+        font-size: 20px
+        font-weight: 400
+        line-height: 29px
+        letter-spacing: 0%
+        padding-left: 10px
+        margin: 10px
+    &__number
+        width: 394px
+        height: 50px
+        border-radius: 10px
+        background: rgb(3, 3, 3)
+        color: rgba(255, 255, 255)
+        font-family: Inter
+        font-size: 20px
+        font-weight: 400
+        line-height: 29px
+        letter-spacing: 0%
+        padding-left: 10px
+        margin: 10px
+    &__dreams
+        width: 394px
+        height: 154px
+        border-radius: 10px
+        background: rgb(3, 3, 3)
+        color: rgba(255, 255, 255)
+        font-family: Inter
+        font-size: 24px
+        font-weight: 400
+        line-height: 29px
+        letter-spacing: 0%
+        padding-left: 10px
+        margin: 10px
+    &__button
+        width: 250px
+        height: 50px
+        color: rgb(249, 89, 193)
+        font-family: Inter
+        font-size: 23px
+        font-weight: 600
+        line-height: 28px
+        letter-spacing: 0%
+        text-align: center
+        border-radius: 10px
+        margin: 10px
+        transition: 0.5s all
+        box-shadow: inset 0 0 0 0 #54b3d6
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out
+        &:hover
+            color: #fff
+            box-shadow: inset 400px 0 0 0 #54b3d6
+#time
+    z-index: 999
+    position: relative
+#dreams
+    z-index: 999
+    position: relative
+
+@media (min-width: 768px) and (max-width: 992px)
+    .form
+        transform: translate(-50%, 15%) 
+        width: 70% 
+        &__arrowDown
+            display: none
+        &__arrowLeft
+            display: none
+@media (min-width: 576px) and (max-width: 768px)
+    .form
+        transform: translate(-50%, 15%) 
+        width: 70% 
+        &__arrowDown
+            display: none
+        &__arrowLeft
+            display: none
+        &__guest
+            max-width: 80%
+        &__number
+            max-width: 80%
+        &__dreams
+            max-width: 80%
+        &__wrapper
+            text-align: center
+@media (min-width: 320px) and (max-width: 576px)
+    .form
+        transform: translate(-50%, 15%) 
+        width: 90% 
+        &__arrowDown
+            display: none
+        &__arrowLeft
+            display: none
+        &__wrapper
+            padding: 10px
+            text-align: center
+        &__reservation
+            font-size: 20px
+            text-align: center
+        input
+            width: 90%
+            margin: 10px auto
+            font-size: 20px
+        &__button
+            max-width: 90%
+        &__dreams
+            height: 100px
